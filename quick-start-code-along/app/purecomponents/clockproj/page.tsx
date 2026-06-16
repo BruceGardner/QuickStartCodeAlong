@@ -18,5 +18,5 @@ export default function App() {
   const time = useTime();
   return (
     <Clock time={time} />
-  );
+);
 }
