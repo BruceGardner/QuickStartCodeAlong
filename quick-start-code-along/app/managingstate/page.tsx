@@ -8,7 +8,7 @@ export default function TaskApp() {
   return (
     <TasksProvider>
       <h1>Day off in Kyoto</h1>
-      <AddTask />
+      <AddTask onAddTask={() => {}} />
       <TaskList />
     </TasksProvider>
   );
